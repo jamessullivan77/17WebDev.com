@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>17WebDev.com</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
+  </head>
+  <body>
+
+  <%= render 'shared/navbar' %>
+  <div class="page_content <%= controller.controller_name %>">
+   <%= yield %>   
+  </div>
+
+  
+
+
+  </body>
+</html>
