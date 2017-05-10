@@ -4,26 +4,59 @@
 
 
 
+// ############################
+// navbar
+    .navbar{
+      height: 95px;
+      margin-bottom: 0px;
+      width: fill;
+      background-color: black;
+      border-bottom: solid black 3px;
+    }
+    .active_1 a{
+      margin: 20px;
+      font-size: 21px;
+      font-family: 'Quantico', sans-serif;
+    }
+    .active_2 a{
+      margin: 20px;
+      font-size: 21px;
+      font-family: 'Quantico', sans-serif;
+    }
+    .active_3 a{
+      margin: 20px;
+      font-size: 21px;
+      font-family: 'Quantico', sans-serif;
+    }
+    .logo{
+      width: 155px;
+      height: 70px;
+      margin: 0px;
+    }
+
 .pages{
     .jumbotron{
       width: fit;
-      background-color: black;
+      background-color: midnightblue;
       height: 400px;
     }
+    .logo-big{
+      margin-left: 35%;
+    }
     .jumbotron h1{
-      color: #CD3333;
+      color: darkgreen;
       text-align: center;
       font-family: 'BioRhyme', serif;
     }
     .jumbotron p{
       margin-top: 60px;
       font-size: 30px;
-      font-family: 'Copse', serif;
-      color: #CD3333;
+      font-family: 'Dosis', sans-serif;
+      color: darkgreen;
       text-align: center;
     }
     .services{
-      margin-left: 40%;
+      margin-left: 38%;
     }
     .row{
       width: fit;
@@ -31,7 +64,7 @@
     }
     .servdis{
       // width: 30%;
-      border-right: solid #CD3333 3px;
+      border-right: solid black 3px;
     }
     .servdis p{
       width: 200px;
@@ -39,13 +72,42 @@
     .img-square{
       border-radius: 0px;
     }
+    // #####################
+    .container{
+      border-top: solid black 2px;
+      height: 400px;
+      width: fit;
+      background-color: midnightblue;
+    }
 
     // ######################
+    .services_2{
+      margin-left: 43%;
+    }
     .row_2{
-      width: fit;
       margin-left: 5%;
     }
     .col-lg-5{
       width: 20%;
     }
+    #js{
+      margin-left: -75px;
+      margin-top: -10px;
+    }
+    #rails{
+      margin-top: 15px;
+    }
+
+    // ################################
+    // ################################
+    // team page
+    .container_2{  
+      border-top: solid black 3px;
+      height: 400px;
+      width: fit;
+    }
+    .services_3{
+      margin-left: 43%;
+    }
+
 }
