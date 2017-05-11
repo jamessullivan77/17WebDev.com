@@ -10,8 +10,8 @@
       height: 95px;
       margin-bottom: 0px;
       width: fill;
-      background-color: black;
-      border-bottom: solid black 3px;
+      background-color: white;
+      border-color: white;
     }
     .active_1 a{
       margin: 20px;
@@ -33,7 +33,9 @@
       height: 70px;
       margin: 0px;
     }
-
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .pages{
     .jumbotron{
       width: fit;
@@ -46,43 +48,61 @@
     .jumbotron h1{
       color: darkgreen;
       text-align: center;
-      font-family: 'BioRhyme', serif;
+      // font-family: 'BioRhyme', serif;
     }
     .jumbotron p{
       margin-top: 60px;
+      margin-left: -20px;
       font-size: 30px;
       font-family: 'Dosis', sans-serif;
       color: darkgreen;
+
+      // font-family: 'Copse', serif;
+      color: #CD3333;
       text-align: center;
     }
+    // #####################
+    // #####################
+    .container{
+      border-top: solid black 2px;
+      height: 800px;
+      width: fit;
+    }
     .services{
-      margin-left: 38%;
+      margin-left: 43%;
+    }
+    .serv{
+      margin-left: -70px;
     }
     .row{
-      width: fit;
+      width: fill;
       margin-left: 10%;
     }
     .servdis{
       // width: 30%;
       border-right: solid black 3px;
+      margin-left: -30px;
+      border-right: solid #CD3333 3px;
     }
     .servdis p{
-      width: 200px;
+      width: 300px;
+      font-size: 20px;
     }
     .img-square{
       border-radius: 0px;
+      margin-bottom: 10px;
     }
     // #####################
-    .container{
+    // #####################
+    .container_2{
       border-top: solid black 2px;
       height: 400px;
-      width: fit;
+      width: fill;
       background-color: midnightblue;
     }
-
-    // ######################
     .services_2{
       margin-left: 43%;
+      color: white;
     }
     .row_2{
       margin-left: 5%;
@@ -101,7 +121,7 @@
     // ################################
     // ################################
     // team page
-    .container_2{  
+    .container_3{  
       border-top: solid black 3px;
       height: 400px;
       width: fit;
