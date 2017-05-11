@@ -3,21 +3,50 @@
 @import "pages";
 
 
+
+// ############################
+// navbar
+    .navbar{
+      height: 95px;
+      margin-bottom: 0px;
+      width: fill;
+      background-color: white;
+      border-color: white;
+    }
+    .active_1 a{
+      margin: 20px;
+      font-size: 21px;
+      font-family: 'Quantico', sans-serif;
+    }
+    .active_2 a{
+      margin: 20px;
+      font-size: 21px;
+      font-family: 'Quantico', sans-serif;
+    }
+    .active_3 a{
+      margin: 20px;
+      font-size: 21px;
+      font-family: 'Quantico', sans-serif;
+    }
+    .logo{
+      width: 155px;
+      height: 70px;
+      margin: 0px;
+    }
 body{
   font-family: 'Open Sans Condensed', sans-serif;
-}
-.navbar{
-  background-color: white;
-  border-color: white;
 }
 .pages{
     .jumbotron{
       width: fit;
-      background-color: black;
+      background-color: midnightblue;
       height: 400px;
     }
+    .logo-big{
+      margin-left: 35%;
+    }
     .jumbotron h1{
-      color: #CD3333;
+      color: darkgreen;
       text-align: center;
       // font-family: 'BioRhyme', serif;
     }
@@ -25,21 +54,33 @@ body{
       margin-top: 60px;
       margin-left: -20px;
       font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      color: darkgreen;
+
       // font-family: 'Copse', serif;
       color: #CD3333;
       text-align: center;
     }
+    // #####################
+    // #####################
+    .container{
+      border-top: solid black 2px;
+      height: 800px;
+      width: fit;
+    }
     .services{
-      margin-left: 40%;
+      margin-left: 43%;
     }
     .serv{
       margin-left: -70px;
     }
     .row{
-      width: fit;
+      width: fill;
       margin-left: 10%;
     }
     .servdis{
+      // width: 30%;
+      border-right: solid black 3px;
       margin-left: -30px;
       border-right: solid #CD3333 3px;
     }
@@ -51,13 +92,42 @@ body{
       border-radius: 0px;
       margin-bottom: 10px;
     }
-
-    // ######################
+    // #####################
+    // #####################
+    .container_2{
+      border-top: solid black 2px;
+      height: 400px;
+      width: fill;
+      background-color: midnightblue;
+    }
+    .services_2{
+      margin-left: 43%;
+      color: white;
+    }
     .row_2{
-      width: fit;
       margin-left: 5%;
     }
     .col-lg-5{
       width: 20%;
     }
+    #js{
+      margin-left: -75px;
+      margin-top: -10px;
+    }
+    #rails{
+      margin-top: 15px;
+    }
+
+    // ################################
+    // ################################
+    // team page
+    .container_3{  
+      border-top: solid black 3px;
+      height: 400px;
+      width: fit;
+    }
+    .services_3{
+      margin-left: 43%;
+    }
+
 }
