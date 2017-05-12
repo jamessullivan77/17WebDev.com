@@ -39,6 +39,7 @@ body{
 .pages{
     .jumbotron{
       width: fit;
+      border-top: solid black 3px;
       background-color: midnightblue;
       height: 400px;
     }
@@ -70,6 +71,7 @@ body{
     }
     .services{
       margin-left: 43%;
+      // need a different font ??
     }
     .serv{
       margin-left: -70px;
@@ -84,9 +86,14 @@ body{
       margin-left: -30px;
       border-right: solid #CD3333 3px;
     }
+    .servdis h2{
+      font-family: 'Dosis', sans-serif;
+    }
     .servdis p{
       width: 300px;
       font-size: 20px;
+      // need a matching font to above??
+
     }
     .img-square{
       border-radius: 0px;
@@ -103,6 +110,7 @@ body{
     .services_2{
       margin-left: 43%;
       color: white;
+      // need a different font ??
     }
     .row_2{
       margin-left: 5%;
@@ -123,11 +131,161 @@ body{
     // team page
     .container_3{  
       border-top: solid black 3px;
-      height: 400px;
-      width: fit;
+      height: 600px;
+      width: fill;
     }
     .services_3{
       margin-left: 43%;
+      // need a different font ??
     }
+    .row_3{
+      margin-left: 10%;
+    }
+    .serv_3{
+      margin-left: -70px;
+    }
+    .col-lg-6{
+      width: 30%;
+    }
+    .team_member{
+      margin: 10px;
+      width: 400px;
+    }
+    #james_img{
+      border-style: double;
+      border-width: 15px;
+      border-color: black;
+    }
+    #kyle_img{
+      border-style: double;
+      border-width: 15px;
+      border-color: black;
+    }
+    #eric_img{
+      border-style: double;
+      border-width: 15px;
+      border-color: black;
+    }
+    .name{
+      font-size: 30px;
+      width: 250px;
+      font-family: 'Dosis', sans-serif;
+    }
+    .position{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Quantico', sans-serif;
+    }
+    .bio{
+      font-size: 15px;
+      font-family: 'Dosis', sans-serif;
+    }
+    .email{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Quantico', sans-serif;
+    }
+    // #################
+    // #################
+    .container_4{  
+      border-top: solid black 3px;
+      height: 500px;
+      width: fill;
+      background-color: midnightblue;
+    }
+    .row_4{
+      margin-left: 0%;
+    }
+    .col-lg-7{
+      margin-left: 18%;
+      width: 60%;
+      text-align: center;
+      color: white;
+    }
+    .services_4{
+      margin-left: 45%;
+      color: white;
+    }
+    .mission h1{
+      font-family: 'Dosis', sans-serif;
+       // need a different font 
+    }
+    .mission h2{
+      font-size: 25px;
+      // need a different font 
+    }
+     // ################################
+    // ################################
+    // contact page
+    .container_5{
+      border-top: solid black 2px;
+      height: 800px;
+      width: fit;
+    }
+    .services_5{
+      margin-left: 43%;
+      // need a different font ??
+    }
+    .serv_5{
+      margin-left: -70px;
+    }
+    .row_5{
+      width: fill;
+      margin-left: 10%;
+    }
+    .col-lg-8{
+
+    }
+    .servdis_5{
+      // width: 30%;
+      margin-left: 50px;
+
+    }
+    .servdis_5 h2{
+      font-family: 'Dosis', sans-serif;
+    }
+    .servdis_5 p{
+      width: 300px;
+      font-size: 20px;
+      // need a matching font to above??
+    }
+    .servdis_5 h4{
+      font-family: 'Quantico', sans-serif;
+    }
+    .img-square{
+      border-radius: 0px;
+      margin-bottom: 10px;
+    }
+    // #################
+    // #################
+    // sengrid or mailchimp
+
+  .container_6{
+      border-top: solid black 2px;
+      height: 800px;
+      width: fit;
+      // display: none;
+    }
+    .services_6{
+      margin-left: 43%;
+      // need a different font ??
+    }
+    .serv_6{
+      margin-left: -70px;
+    }
+    .row_6{
+      width: fill;
+      margin-left: 10%;
+    }
+    .col-lg-9{
+
+    }
+    .servdis_6{
+      // width: 30%;
+      margin-left: 50px;
+
+    }
+
+
 
 }
