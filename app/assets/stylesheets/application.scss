@@ -5,6 +5,9 @@
 
 
 // ############################
+body {
+  font-family: 'Play', sans-serif;
+}
 // navbar
     .navbar{
       height: 95px;
@@ -16,17 +19,17 @@
     .active_1 a{
       margin: 20px;
       font-size: 21px;
-      font-family: 'Quantico', sans-serif;
+      // font-family: 'Quantico', sans-serif;
     }
     .active_2 a{
       margin: 20px;
       font-size: 21px;
-      font-family: 'Quantico', sans-serif;
+      // font-family: 'Quantico', sans-serif;
     }
     .active_3 a{
       margin: 20px;
       font-size: 21px;
-      font-family: 'Quantico', sans-serif;
+      // font-family: 'Quantico', sans-serif;
     }
     .logo{
       width: 155px;
@@ -34,7 +37,7 @@
       margin: 0px;
     }
 body{
-  font-family: 'Open Sans Condensed', sans-serif;
+  // font-family: 'Open Sans Condensed', sans-serif;
 }
 .pages{
     .jumbotron{
@@ -55,7 +58,7 @@ body{
       margin-top: 60px;
       margin-left: -20px;
       font-size: 30px;
-      font-family: 'Dosis', sans-serif;
+      // font-family: 'Dosis', sans-serif;
       color: darkgreen;
 
       // font-family: 'Copse', serif;
