@@ -61,15 +61,15 @@ body{
 .pages{
     .jumbotron{
       width: fit;
-      border-top: solid black 3px;
-      background-color: midnightblue;
+      // border-top: solid black 3px;
+      background-color: white;
       height: 400px;
     }
     .logo-big{
       margin-left: 35%;
-      height: 250px;
-      width: 350px;
-      opacity: 0.85px;
+      height: 100%;
+      // width: 45%;
+      opacity: 0.85;
 
     }
     .jumbotron h1{
@@ -131,7 +131,6 @@ body{
       border-top: solid black 2px;
       height: 400px;
       width: fill;
-      background-color: midnightblue;
     }
     .services_2{
       margin-left: 43%;
@@ -142,6 +141,7 @@ body{
     .row_2{
       margin-left: -5%;
       background-color: midnightblue;
+      padding: 20px;
     }
     .col-lg-5{
       margin-bottom: 5%;
@@ -288,7 +288,6 @@ body{
     }
     .img-square{
       border-radius: 0px;
-      margin-bottom: 10px;
     }
     // #################
     // #################
@@ -318,7 +317,5 @@ body{
       margin-left: 50px;
 
     }
-
-
 
 }
