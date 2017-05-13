@@ -14,8 +14,12 @@
   </head>
   <body>
 
+
+  
     <%= render 'shared/navbar' %>
+    <div class="page_content <%= controller.controller_name %>">
     <%= yield %>
+    </div>
     <%=render 'shared/footer'%>
 
 

@@ -160,6 +160,97 @@ body{
       margin-top: 15px;
     }
 
+
+    // ################################
+    // ################################
+    // team page
+    .container_3{  
+      border-top: solid black 3px;
+      height: 600px;
+      width: fill;
+    }
+    .services_3{
+      margin-left: 43%;
+      // need a different font ??
+    }
+    .row_3{
+      margin-left: 10%;
+    }
+    .serv_3{
+      margin-left: -70px;
+    }
+    .col-lg-6{
+      width: 30%;
+    }
+    .team_member{
+      margin: 10px;
+      width: 400px;
+    }
+    #james_img{
+      border-style: double;
+      border-width: 15px;
+      border-color: black;
+    }
+    #kyle_img{
+      border-style: double;
+      border-width: 15px;
+      border-color: black;
+    }
+    #eric_img{
+      border-style: double;
+      border-width: 15px;
+      border-color: black;
+    }
+    .name{
+      font-size: 30px;
+      width: 250px;
+      font-family: 'Dosis', sans-serif;
+    }
+    .position{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Quantico', sans-serif;
+    }
+    .bio{
+      font-size: 15px;
+      font-family: 'Dosis', sans-serif;
+    }
+    .email{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Quantico', sans-serif;
+    }
+    // #################
+    // #################
+    .container_4{  
+      border-top: solid black 3px;
+      height: 500px;
+      width: fill;
+      background-color: midnightblue;
+    }
+    .row_4{
+      height: 200px;
+      margin-left: 0%;
+      background-color: midnightblue;
+    }
+    .col-lg-7{
+      margin-left: 18%;
+      width: 60%;
+      text-align: center;
+      color: white;
+    }
+    .services_4{
+      margin-left: 45%;
+      color: white;
+    }
+    .mission h1{
+      font-family: 'Dosis', sans-serif;
+       // need a different font 
+    }
+    .mission h2{
+      font-size: 25px;
+      // need a different font 
+    }
      // ################################
     // ################################
     // contact page
@@ -170,22 +261,22 @@ body{
     }
     .services_5{
       margin-left: 43%;
-      // need a different font ??
     }
     .serv_5{
       margin-left: -70px;
     }
     .row_5{
-      width: fill;
       margin-left: 10%;
     }
+    .email{
+      margin-left: -15%;
+    }
     .col-lg-8{
-
+      margin-left: 15%;
     }
     .servdis_5{
       // width: 30%;
       margin-left: 50px;
-
     }
     .servdis_5 h2{
       font-family: 'Dosis', sans-serif;
