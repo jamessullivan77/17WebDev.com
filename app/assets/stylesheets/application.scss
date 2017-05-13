@@ -21,7 +21,7 @@
 
 // ############################
 body {
-  font-family: 'Play', sans-serif;
+   font-family: 'Dosis', sans-serif;
 }
 // navbar
     .navbar{
@@ -35,72 +35,20 @@ body {
       width: 50px;
       height: 50px;
     }
-    .active_1 a{
-      margin: 20px;
-      font-size: 21px;
+    .act a{
+      margin: 10px;
+      font-size: 15px;
       // font-family: 'Quantico', sans-serif;
     }
-    .active_2 a{
-      margin: 20px;
-      font-size: 21px;
-      // font-family: 'Quantico', sans-serif;
-    }
-    .active_3 a{
-      margin: 20px;
-      font-size: 21px;
-      // font-family: 'Quantico', sans-serif;
-    }
-    .logo{
-      width: 155px;
-      height: 70px;
-      margin: 0px;
-    }
-body{
-  // font-family: 'Open Sans Condensed', sans-serif;
-}
 .pages{
-    .jumbotron{
-      width: fit;
-      // border-top: solid black 3px;
-      background-color: white;
-      height: 400px;
-    }
     .logo-big{
-      margin-left: 35%;
-      height: 100%;
-      // width: 45%;
       opacity: 0.85;
+      margin-bottom: 40px;
 
     }
-    .jumbotron h1{
-      color: darkgreen;
-      text-align: center;
-      // font-family: 'BioRhyme', serif;
-    }
-    .jumbotron p{
-      margin-top: 60px;
-      margin-left: -20px;
-      font-size: 30px;
-      // font-family: 'Dosis', sans-serif;
-      color: darkgreen;
-
-      // font-family: 'Copse', serif;
-      color: #CD3333;
-      text-align: center;
-    }
-    // #####################
-    // #####################
-    .container-fluid{
-      border-top: solid black 2px;
-      height: 800px;
-      width: fit;
-    }
-    .services{
-      margin-left: 43%;
-      // need a different font ??
-    }
-    .serv{
-      margin-left: -70px;
+    #services{
+      margin-left: 10px;
+      margin-top: 15px;
     }
     .row{
       width: 100%;
@@ -108,8 +56,7 @@ body{
     }
     .servdis{
       // width: 30%;
-      border-right: solid black 3px;
-      margin-left: -30px;
+      // border-right: solid black 3px;
       border-right: solid #CD3333 3px;
     }
     .servdis h2{
@@ -122,20 +69,14 @@ body{
 
     }
     .img-square{
-      border-radius: 0px;
       margin-bottom: 10px;
     }
     // #####################
     // #####################
-    .container_2{
-      border-top: solid black 2px;
-      height: 400px;
-      width: fill;
-    }
     .services_2{
-      margin-left: 43%;
-      color: white;
-
+      margin-left: 10px;
+      margin-top: 15px;
+      margin-top: 100px;
       // need a different font ??
     }
     .row_2{
@@ -195,39 +136,28 @@ body{
       font-size: 20px;
       // need a matching font to above??
     }
-    .servdis_5 h4{
+    .servdis h4{
       font-family: 'Quantico', sans-serif;
-    }
-    .img-square{
-      border-radius: 0px;
     }
     // #################
     // #################
     // sengrid or mailchimp
-    .container_6{
-      border-top: solid black 2px;
-      height: 800px;
-      width: fit;
-      // display: none;
-    }
+    // .container_6{
+    //   border-top: solid black 2px;
+    //   height: 800px;
+    //   width: fit;
+    //   // display: none;
+    // }
     .services_6{
-      margin-left: 43%;
+      // margin-left: 43%;
       // need a different font ??
     }
     .serv_6{
-      margin-left: -70px;
+      // margin-left: -70px;
     }
     .row .row_6{
       width: fill;
       margin-left: 10%;
-    }
-    .col-lg-9{
-
-    }
-    .servdis_6{
-      // width: 30%;
-      margin-left: 50px;
-
     }
 
 }
