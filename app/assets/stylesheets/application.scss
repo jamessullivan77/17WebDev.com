@@ -67,7 +67,7 @@ body{
     }
     // #####################
     // #####################
-    .container{
+    .container-fluid{
       border-top: solid black 2px;
       height: 800px;
       width: fit;
@@ -113,11 +113,19 @@ body{
     .services_2{
       margin-left: 43%;
       color: white;
+
       // need a different font ??
     }
     .row_2{
       margin-left: 5%;
+      background-color: midnightblue;
     }
+    .col-lg-5{
+      margin-bottom: 5%;
+      // when under a certain max width- width should be 5 instead of 20 %
+    }
+    // @media only screen and (max-width: ){
+
     .col-lg-5{
       width: 20%;
     }
@@ -194,10 +202,10 @@ body{
       border-top: solid black 3px;
       height: 500px;
       width: fill;
-      background-color: midnightblue;
     }
     .row_4{
       margin-left: 0%;
+      background-color: midnightblue;
     }
     .col-lg-7{
       margin-left: 18%;
@@ -262,8 +270,7 @@ body{
     // #################
     // #################
     // sengrid or mailchimp
-
-  .container_6{
+    .container_6{
       border-top: solid black 2px;
       height: 800px;
       width: fit;
@@ -276,7 +283,7 @@ body{
     .serv_6{
       margin-left: -70px;
     }
-    .row_6{
+    .row .row_6{
       width: fill;
       margin-left: 10%;
     }
