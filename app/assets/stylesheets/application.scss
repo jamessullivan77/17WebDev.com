@@ -28,23 +28,33 @@ body {
       height: 95px;
       margin-bottom: 0px;
       width: fill;
-      background-color: white;
-      border-color: white;
+      background: linear-gradient(to bottom right, #1C1C1C 10%, #494949 90%);
+      border: none;
+      border-radius: 0px;
     }
     .navlogo {
-      width: 50px;
-      height: 50px;
+      width: 120px;
+      height: 75px;
     }
-    .act a{
+    .act {
       margin: 10px;
       font-size: 15px;
+      color: white;
       // font-family: 'Quantico', sans-serif;
     }
 .pages{
+    .container-fluid{
+      padding-right: 0%;
+      padding-left: 0%;
+    }
+    .col-lg-offset-4{
+      margin-left: 0px;
+    }
     .logo-big{
-      opacity: 0.50;
-      margin-bottom: 40px;
-
+      // opacity: 0.50;
+      margin-top: 10%;
+      margin-left: 30%;
+      margin-bottom: 10px;
     }
     #services{
       margin-left: 10px;
@@ -52,21 +62,26 @@ body {
     }
     .row{
       width: 100%;
-      // margin-left: 10%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 0%;
+    }
+    .row_1{
+      height: 500px;
+      width: 100%;
+      background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
     }
     .servdis{
       // width: 30%;
       // border-right: solid black 3px;
-      border-right: solid #CD3333 3px;
+      // border-right: solid #CD3333 3px;
     }
     .servdis h2{
       font-family: 'Dosis', sans-serif;
     }
-    .servdis p{
+    .col-lg-4 p{
       width: 300px;
       font-size: 20px;
-      // need a matching font to above??
-
     }
     .img-square{
       margin-bottom: 10px;
@@ -76,20 +91,15 @@ body {
     .services_2{
       margin-left: 10px;
       margin-top: 15px;
-      margin-top: 100px;
-      // need a different font ??
     }
-    .row_2{
-      margin-left: -5%;
-      background-color: midnightblue;
+    .row_3{
+      // margin-left: ;
       padding: 20px;
+      background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
     }
     .col-lg-5{
       margin-bottom: 5%;
-      // when under a certain max width- width should be 5 instead of 20 %
     }
-    // @media only screen and (max-width: ){
-
     .col-lg-5{
       width: 20%;
     }
@@ -105,18 +115,14 @@ body {
     // ################################
     // contact page
     .container_5{
-      border-top: solid black 2px;
-      height: 800px;
+      height: 600px;
       width: fit;
     }
     .services_5{
       margin-left: 43%;
     }
     .serv_5{
-      margin-left: -70px;
-    }
-    .row_5{
-      margin-left: 10%;
+      
     }
     .email{
       margin-left: -15%;
@@ -127,6 +133,7 @@ body {
     .servdis_5{
       // width: 30%;
       margin-left: 50px;
+      margin-top: -10%;
     }
     .servdis_5 h2{
       font-family: 'Dosis', sans-serif;
