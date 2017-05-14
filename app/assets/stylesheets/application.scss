@@ -29,7 +29,8 @@ body {
       margin-bottom: 0px;
       width: fill;
       background: linear-gradient(to bottom right, #1C1C1C 10%, #494949 90%);
-      border-color: white;
+      border: none;
+      border-radius: 0px;
     }
     .navlogo {
       width: 120px;
@@ -42,6 +43,10 @@ body {
       // font-family: 'Quantico', sans-serif;
     }
 .pages{
+    .container-fluid{
+      padding-right: 0%;
+      padding-left: 0%;
+    }
     .col-lg-offset-4{
       margin-left: 0px;
     }
@@ -56,9 +61,10 @@ body {
       margin-top: 15px;
     }
     .row{
-      width: cover;
-      margin-left: -5%;
-      margin-right: 5%;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 0%;
     }
     .row_1{
       height: 500px;
@@ -85,10 +91,9 @@ body {
     .services_2{
       margin-left: 10px;
       margin-top: 15px;
-      margin-top: 100px;
     }
     .row_3{
-      margin-left: -5%;
+      // margin-left: ;
       padding: 20px;
       background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
     }
@@ -117,7 +122,7 @@ body {
       margin-left: 43%;
     }
     .serv_5{
-      margin-left: -70px;
+      
     }
     .email{
       margin-left: -15%;
@@ -128,6 +133,7 @@ body {
     .servdis_5{
       // width: 30%;
       margin-left: 50px;
+      margin-top: -10%;
     }
     .servdis_5 h2{
       font-family: 'Dosis', sans-serif;
