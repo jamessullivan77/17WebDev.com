@@ -4,6 +4,8 @@
   height: 200px;
   margin-left: 20px;
   margin-top: 50px;
+  background: linear-gradient(to bottom right, #1C1C1C 10%, #494949 90%);
+
 }
 
 .relist{
@@ -16,9 +18,11 @@
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
+  color: white;
 }
 
 .location{
   // width: 50% !important;
+  color: white;
   margin-left: 40px;
 }
