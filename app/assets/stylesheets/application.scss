@@ -28,7 +28,7 @@ body {
       height: 95px;
       margin-bottom: 0px;
       width: fill;
-      background-color: white;
+      background-color: black;
       border-color: white;
     }
     .navlogo {
@@ -42,9 +42,8 @@ body {
     }
 .pages{
     .logo-big{
-      opacity: 0.50;
+      // opacity: 0.50;
       margin-bottom: 40px;
-
     }
     #services{
       margin-left: 10px;
@@ -54,19 +53,20 @@ body {
       width: 100%;
       // margin-left: 10%;
     }
+    .row_1{
+      background-color: #4b8ccc;
+    }
     .servdis{
       // width: 30%;
       // border-right: solid black 3px;
-      border-right: solid #CD3333 3px;
+      // border-right: solid #CD3333 3px;
     }
     .servdis h2{
       font-family: 'Dosis', sans-serif;
     }
-    .servdis p{
+    .col-lg-4 p{
       width: 300px;
       font-size: 20px;
-      // need a matching font to above??
-
     }
     .img-square{
       margin-bottom: 10px;
@@ -77,19 +77,15 @@ body {
       margin-left: 10px;
       margin-top: 15px;
       margin-top: 100px;
-      // need a different font ??
     }
-    .row_2{
+    .row_3{
       margin-left: -5%;
-      background-color: midnightblue;
       padding: 20px;
+      background-color: #4b8ccc;
     }
     .col-lg-5{
       margin-bottom: 5%;
-      // when under a certain max width- width should be 5 instead of 20 %
     }
-    // @media only screen and (max-width: ){
-
     .col-lg-5{
       width: 20%;
     }
