@@ -28,33 +28,42 @@ body {
       height: 95px;
       margin-bottom: 0px;
       width: fill;
-      background-color: black;
+      background: linear-gradient(to bottom right, #1C1C1C 10%, #494949 90%);
       border-color: white;
     }
     .navlogo {
-      width: 50px;
-      height: 50px;
+      width: 120px;
+      height: 75px;
     }
-    .act a{
+    .act {
       margin: 10px;
       font-size: 15px;
+      color: white;
       // font-family: 'Quantico', sans-serif;
     }
 .pages{
+    .col-lg-offset-4{
+      margin-left: 0px;
+    }
     .logo-big{
       // opacity: 0.50;
-      margin-bottom: 40px;
+      margin-top: 10%;
+      margin-left: 30%;
+      margin-bottom: 10px;
     }
     #services{
       margin-left: 10px;
       margin-top: 15px;
     }
     .row{
-      width: 100%;
-      // margin-left: 10%;
+      width: cover;
+      margin-left: -5%;
+      margin-right: 5%;
     }
     .row_1{
-      background-color: #4b8ccc;
+      height: 500px;
+      width: 100%;
+      background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
     }
     .servdis{
       // width: 30%;
@@ -81,7 +90,7 @@ body {
     .row_3{
       margin-left: -5%;
       padding: 20px;
-      background-color: #4b8ccc;
+      background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
     }
     .col-lg-5{
       margin-bottom: 5%;
@@ -101,8 +110,7 @@ body {
     // ################################
     // contact page
     .container_5{
-      border-top: solid black 2px;
-      height: 800px;
+      height: 600px;
       width: fit;
     }
     .services_5{
@@ -110,9 +118,6 @@ body {
     }
     .serv_5{
       margin-left: -70px;
-    }
-    .row_5{
-      margin-left: 10%;
     }
     .email{
       margin-left: -15%;

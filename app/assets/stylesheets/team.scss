@@ -48,8 +48,6 @@
 #eric{
   background-image: url('/assets/eric.jpg');
 }
-
-
 .name{
   font-size: 30px;
   width: 250px;
@@ -70,7 +68,10 @@
   font-family: 'Quantico', sans-serif;
 }
 .row_5{
-  background-color: #4b8ccc;
+ background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
+}
+.team_spacer_2{
+color: white;
 }
 .mission_box{
   width: 100%;
