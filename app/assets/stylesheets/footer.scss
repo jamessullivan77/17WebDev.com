@@ -1,17 +1,18 @@
 .footer {
   border-top: solid black 3px;
   width: 100%;
+  overflow: auto;
   height: 200px;
   margin-left: 0px;
   background: linear-gradient(to bottom right, #1C1C1C 10%, #494949 90%);
 }
-.row.footer{
+.footer{
   margin-left: 0px;
   margin-bottom: 0px;
   border-bottom: none;
 }
 .relist{
-  float: left;
+  float:left;
   width: 25%;
   height: 200px;
   padding-left: 50px;
@@ -21,10 +22,4 @@
   margin-left: 10px;
   margin-right: 10px;
   color: white;
-}
-
-.location{
-  // width: 50% !important;
-  color: white;
-  margin-left: 40px;
 }
