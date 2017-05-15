@@ -28,6 +28,7 @@ body {
       height: 95px;
       margin-bottom: 0px;
       width: fill;
+      // background-color: white;
       background: linear-gradient(to bottom right, #1C1C1C 10%, #494949 90%);
       border: none;
       border-radius: 0px;
@@ -38,10 +39,11 @@ body {
     }
     .act {
       margin: 10px;
-      font-size: 15px;
+      font-size: 20px;
       color: white;
       // font-family: 'Quantico', sans-serif;
     }
+
 .pages{
     .container-fluid{
       padding-right: 0%;
@@ -67,9 +69,13 @@ body {
       margin-bottom: 0%;
     }
     .row_1{
-      height: 500px;
+      height: 650px;
       width: 100%;
-      background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
+      background: linear-gradient(to bottom, #EF3B36, #FFFFFF);
+      // background: linear-gradient(to bottom right, #fd746c, #ff9068);
+    }
+    .row_2{
+      background-color: #FFFFFF;
     }
     .servdis{
       // width: 30%;
@@ -88,6 +94,53 @@ body {
     }
     // #####################
     // #####################
+      // additional row
+    .row_button{
+      margin-top: 240px;
+    }
+    #services_add{
+      margin-bottom: 50px;
+    }
+    .row_additional{
+      display: none;
+      box-shadow: inset 0px 0px 5px 5px black;
+    }
+    .row_additional{
+      background-color: lightgrey;
+      width: 100%;
+    }
+     .additional_services h5{
+      font-size: 25px;
+      font-weight: bold;
+    }
+     .add_services_button{
+      margin-left: 10px;
+      margin-top: 200px;
+      margin-bottom: 50px;
+      border: none;
+      background-color: white;
+      font-size: 20px;
+      color: #389fff;
+    }
+    .add_services_button:hover{
+      color: red;
+      text-decoration: underline;
+    }
+    .col-lg-9{
+      margin-left: 3%;
+      width: 20%;
+      margin-bottom: 100px;
+    }
+    .col-lg-9 h2{
+      font-size: 20px;
+    }
+     .col-lg-9 p{
+      width: 300px;
+      font-size: 15px;
+    }
+
+    // ######################
+    // ######################
     .services_2{
       margin-left: 10px;
       margin-top: 15px;
@@ -95,21 +148,13 @@ body {
     .row_3{
       // margin-left: ;
       padding: 20px;
-      background: linear-gradient(to bottom right, #83a4d4, #b6fbff);
+      background: linear-gradient(to top, #EF3B36, #FFFFFF);
     }
-    .col-lg-5{
+    .col-lg-2{
       margin-bottom: 5%;
-    }
-    .col-lg-5{
       width: 20%;
     }
-    #js{
-      margin-left: -75px;
-      margin-top: -10px;
-    }
-    #rails{
-      margin-top: 15px;
-    }
+
 
      // ################################
     // ################################
