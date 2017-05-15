@@ -25,6 +25,12 @@ document.addEventListener('DOMContentLoaded', function(){
       });
   };
 
+  document.getElementById('x').onclick = function(){
+    console.log('click');
+      document.addEventListener('click', function(){
+        document.getElementById('row_additional').style.display = 'none';
+      });
+  };
 
 
 

@@ -43,6 +43,13 @@ body {
       color: white;
       // font-family: 'Quantico', sans-serif;
     }
+    .company_name{
+      font-size: 50px;
+      // font-family: 'Knewave', cursive;
+      font-family: 'Permanent Marker', cursive;
+      width: 100%;
+      text-align: center;
+    }
 
 .pages{
     .container-fluid{
@@ -97,6 +104,7 @@ body {
       // additional row
     .row_button{
       margin-top: 240px;
+      width: 100%;
     }
     #services_add{
       margin-bottom: 50px;
@@ -132,13 +140,35 @@ body {
       margin-bottom: 100px;
     }
     .col-lg-9 h2{
-      font-size: 20px;
+      font-size: 25px;
     }
      .col-lg-9 p{
-      width: 300px;
-      font-size: 15px;
+      width: 200px;
+      font-size: 20px;
+      text-align: center;
     }
-
+    .x{
+      font-size: 30px;
+      color: #389fff;
+    }
+    .x:hover{
+      color: red;
+    }
+    .close_add_services{
+      height: 10px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+    }
+    .close{
+      float: none;
+      opacity: 1;
+      margin-top: -40px;
+     
+    }
+    // #handshake{
+    //   background-color: lightblue;
+    //   border-radius: 50%;
+    // }
     // ######################
     // ######################
     .services_2{
