@@ -16,3 +16,17 @@
 //= require bootstrap-sprockets
 //= require jquery
 //= require_tree .
+document.addEventListener('DOMContentLoaded', function(){
+
+  document.getElementById('additional_services').onclick = function(){
+    console.log('click');
+      document.addEventListener('click', function(){
+        document.getElementById('row_additional').style.display = 'inline-block';
+      });
+  };
+
+
+
+
+});
+
