@@ -3,6 +3,7 @@
 <head>
     <title>17WebDev.com</title>
     <%= csrf_meta_tags %>
+    <meta name="google-site-verification" content="TIcoPtpm-i5vbYFEn0ZoyC4bBdb1fs4dLa8c03y_iJE" />
     <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
@@ -12,6 +13,7 @@
    <link href="https://fonts.googleapis.com/css?family=Dosis:700|Quantico:700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
 <!--    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> -->
   </head>
   <body>
@@ -21,7 +23,7 @@
     <div class="page_content <%= controller.controller_name %>">
     <%= yield %>
     </div>
-    
+
     <%=render 'shared/footer'%>
 
 
