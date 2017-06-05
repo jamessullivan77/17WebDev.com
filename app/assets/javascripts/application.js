@@ -18,21 +18,14 @@
 //= require_tree .
 document.addEventListener('DOMContentLoaded', function(){
 
-  document.getElementById('additional_services').onclick = function(){
-    console.log('click');
-      document.addEventListener('click', function(){
-        document.getElementById('row_additional').style.display = 'inline-block';
+   $('.additional_services').click(function(){
+    $('.row_additional').slideToggle(800).css('display','inline-block');
       });
-  };
 
-  document.getElementById('x').onclick = function(){
-    console.log('click');
-      document.addEventListener('click', function(){
-        document.getElementById('row_additional').style.display = 'none';
+
+   $('.x').click(function(){
+    $('.row_additional').slideToggle(800).css('display','inline-block');
       });
-  };
-
-
 
 });
 
